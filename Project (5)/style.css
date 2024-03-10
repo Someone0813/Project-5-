@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+html{
+    height: 100%;
+}
+body{
+    background-color: #F8E9DD;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 540px;
+    height: 660px;
+    display: flex;
+    flex-direction: column;
+}
+.Head{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    align-items: center;
+    background-color: #EC755D;
+    border-radius: 20px;
+}
+.ht1{
+    width: 117px;
+    height: 73px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 32px;
+}
+.ht1-t1{
+    width: 96px;
+    height: 23px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.44px;
+    color: #FFFFFF;
+}
+.ht1-t2{
+    width: 100%;
+    height: 42px;
+    font-weight:700;
+    font-size: 32px;
+    line-height: 41.66px;
+    color: #FFFBF6;
+}
+.Logo{
+    margin-left: 280px;
+}
+.Main{
+    width: 100%;
+    height: 511px;
+    margin-top: 24px;
+    background-color: #FFFBF6;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.mt1{
+    width: 350px;
+    height: 42px;
+    margin-top: 32px;
+    margin-left: 40px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41.66px;
+    color: #382314;
+}
+.mt2{
+    width: 460.5px;
+    height: 178px;
+    display: flex;
+    margin-top: 66px;
+    margin-left: 40px;
+    gap: 17.91px;
+}
+.mt2-t1{
+    width: 50.36px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.Col1{
+    width: 100%;
+    height: 50px;
+    margin-top: 100px;
+    border-radius: 6px;
+    background-color: #EC755D;
+    overflow: hidden;
+    cursor: pointer;
+}
+.Col1:active{
+    background-color: #FF9B86;
+}
+.Col2{
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    border-radius: 6px;
+    background-color: #EC755D;
+    overflow: hidden;
+    cursor: pointer;
+}
+.Col2:active{
+    background-color: #FF9B86;
+}
+.Col3{
+    width: 100%;
+    height: 150px;
+    border-radius: 6px;
+    background-color: #76B5BC;
+    overflow: hidden;
+    cursor: pointer;
+}
+.Col3:active{
+    background-color: #B4E0E5;
+}
+.Col4{
+    width: 100%;
+    height: 89px;
+    margin-top: 61px;
+    border-radius: 6px;
+    background-color: #EC755D;
+    overflow: hidden;
+    cursor: pointer;
+}
+.Col4:active{
+    background-color: #FF9B86;
+}
+.Col5{
+    width: 100%;
+    height: 67px;
+    margin-top: 83px;
+    border-radius: 6px;
+    background-color: #EC755D;
+    overflow: hidden;
+    cursor: pointer;
+}
+.Col5:active{
+    background-color: #FF9B86;
+}
+.Col6{
+    width: 100%;
+    height: 124px;
+    margin-top: 26px;
+    border-radius: 6px;
+    background-color: #EC755D;
+    overflow: hidden;
+    cursor: pointer;
+}
+.Col6:active{
+    background-color: #FF9B86;
+}
+.Col7{
+    width: 100%;
+    height: 73px;
+    margin-top: 77px;
+    border-radius: 6px;
+    background-color: #EC755D;
+    overflow: hidden;
+    cursor: pointer;
+}
+.Col7:active{
+    background-color: #FF9B86;
+}
+.col1{
+    width: 50px;
+    height: 20px;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19.53px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #92857A;
+}
+.Rectangle{
+    width: 460px;
+    height: 2px;
+    margin-left: 40px;
+    background-color: #F8E9DD;
+    margin-top: 32px;
+    border-radius: 5px;
+}
+.mt3{
+    width: 460px;
+    height: 87px;
+    margin-left: 40px;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+.mt3-t1{
+    width: 100%;
+    height: 23px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.44px;
+    color: #92857A;
+}
+.mt3-t2{
+    width: 100%;
+    height: 62px;
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+}
+.mt3-t21{
+    width: 184px;
+    height: 100%;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 62.5px;
+    color: #382314;
+}
+.mt3-t22{
+    width: 133px;
+    height: 47px;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    margin-left: 143px;
+}
+.mt3-t221{
+    width: 52px;
+    height: 23px;
+    margin-left: 80px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23.44px;
+}
+.mt3-t222{
+    width: 100%;
+    height: 23px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.44px;
+    color: #92857A;
+}
